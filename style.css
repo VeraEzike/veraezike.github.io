@@ -265,3 +265,34 @@ footer {
     padding: 12px 22px;
     border-radius: 6px;
 }
+
+
+/* Navigation */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #0b1f33;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+header nav > a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header nav div {
+    display: flex;
+    gap: 25px;
+}
+
+header nav div a {
+    text-decoration: none;
+}
