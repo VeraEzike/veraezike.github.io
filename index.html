@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <title>Vera Chinaza Ezike | Cloud/DevOps Engineer</title>
-    <meta name="description" content="Vera Chinaza Ezike's Cloud and DevOps Engineering portfolio.">
+
+    <meta
+        name="description"
+        content="Vera Chinaza Ezike's Cloud and DevOps Engineering portfolio."
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
         <nav>
-            <a href="#home">Vera Ezike</a>
+            <a href="#home" class="logo">Vera Ezike</a>
 
-            <div>
+            <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
@@ -24,141 +30,379 @@
         </nav>
     </header>
 
+
     <main>
 
-<section id="home">
-    <p class="hero-label">CLOUD / DEVOPS ENGINEER</p>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
 
-    <h1>Vera Chinaza Ezike</h1>
+            <p class="hero-label">CLOUD / DEVOPS ENGINEER</p>
 
-    <p class="hero-intro">
-        I build, deploy, secure, monitor, and troubleshoot
-        cloud infrastructure and containerized applications.
-    </p>
+            <h1>
+                Vera Chinaza Ezike
+            </h1>
 
-    <p class="hero-tools">
-        AWS · Azure · Linux · Docker · Kubernetes · Terraform · CI/CD
-    </p>
+            <p class="hero-intro">
+                I deploy and manage reliable cloud infrastructure,
+                automate application delivery, and support secure,
+                scalable environments using AWS, Linux, and DevOps tools.
+            </p>
 
-    <div class="hero-buttons">
-        <a href="#projects">View My Projects</a>
-        <a href="#contact">Get In Touch</a>
-    </div>
-</section>
+            <p class="hero-tools">
+                AWS · Azure · Linux · Docker · Kubernetes · Terraform · CI/CD
+            </p>
 
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-button">
+                    View My Projects
+                </a>
+
+                <a href="#contact" class="secondary-button">
+                    Get In Touch
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
         <section id="about">
-            <h2>About Me</h2>
 
-            <p>
-                I am a Cloud/DevOps Engineer with hands-on experience
-                working with AWS, Linux, Docker, networking, IAM, monitoring,
-                and CI/CD through practical cloud and DevOps projects.
-            </p>
+            <div class="section-heading">
+                <p class="section-label">ABOUT</p>
+                <h2>Building practical cloud and DevOps expertise.</h2>
+            </div>
 
-            <p>
-                I am building my experience in cloud infrastructure,
-                automation, security, deployment, and troubleshooting.
-            </p>
+            <div class="about-content">
+
+                <p>
+                    I am a Cloud/DevOps Engineer focused on building, deploying,
+                    securing, and supporting cloud-based environments. Through
+                    hands-on projects and practical training, I have worked with
+                    AWS infrastructure, Linux servers, cloud networking, IAM,
+                    Docker, CI/CD, monitoring, and infrastructure automation.
+                </p>
+
+                <p>
+                    My practical experience includes deploying web applications
+                    on AWS EC2, configuring cloud networking and access controls,
+                    working with highly available architectures, automating
+                    server configuration with Bash, and deploying containerized
+                    applications through Amazon ECR and GitHub Actions.
+                </p>
+
+                <p>
+                    I am particularly interested in helping teams improve
+                    infrastructure reliability, deployment processes, security,
+                    and operational efficiency while continuing to grow in
+                    cloud and DevOps engineering.
+                </p>
+
+            </div>
+
         </section>
 
 
+        <!-- Skills Section -->
         <section id="skills">
-            <h2>Technical Skills</h2>
 
-            <ul>
-                <li>AWS</li>
-                <li>Microsoft Azure</li>
-                <li>Linux</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>Git & GitHub</li>
-                <li>GitHub Actions</li>
-                <li>CI/CD</li>
-                <li>AWS IAM</li>
-                <li>VPC & Networking</li>
-                <li>CloudWatch</li>
-                <li>Datadog</li>
-                <li>Bash</li>
-                <li>Nginx</li>
-            </ul>
+            <div class="section-heading">
+                <p class="section-label">TECHNICAL SKILLS</p>
+                <h2>Tools and technologies I work with.</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-list">
+                        <span>AWS</span>
+                        <span>Microsoft Azure</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>AWS Infrastructure</h3>
+                    <div class="skill-list">
+                        <span>EC2</span>
+                        <span>VPC</span>
+                        <span>IAM</span>
+                        <span>EFS</span>
+                        <span>ELB</span>
+                        <span>Auto Scaling</span>
+                        <span>CloudWatch</span>
+                        <span>Route 53</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>DevOps & Automation</h3>
+                    <div class="skill-list">
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
+                        <span>GitHub Actions</span>
+                        <span>CI/CD</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Linux & Scripting</h3>
+                    <div class="skill-list">
+                        <span>Linux</span>
+                        <span>Bash</span>
+                        <span>AWS CLI</span>
+                        <span>Linux Administration</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Networking & Security</h3>
+                    <div class="skill-list">
+                        <span>VPC</span>
+                        <span>Subnets</span>
+                        <span>Route Tables</span>
+                        <span>NAT Gateway</span>
+                        <span>DNS</span>
+                        <span>Security Groups</span>
+                        <span>NACLs</span>
+                        <span>RBAC</span>
+                        <span>HTTPS</span>
+                        <span>SSL/TLS</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Monitoring & Web</h3>
+                    <div class="skill-list">
+                        <span>CloudWatch</span>
+                        <span>Datadog</span>
+                        <span>Nginx</span>
+                        <span>Apache</span>
+                        <span>Portainer</span>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
 
+        <!-- Projects Section -->
         <section id="projects">
-            <h2>Projects</h2>
 
-            <article>
-                <h3>Netflix Application Deployment</h3>
-                <p>
-                    Containerized and deployed a frontend and backend application
-                    on AWS EC2 using Docker, Amazon ECR, GitHub Actions,
-                    MongoDB Atlas, IAM, and Portainer.
-                </p>
-            </article>
+            <div class="section-heading">
+                <p class="section-label">PROJECTS</p>
+                <h2>Hands-on cloud and DevOps projects.</h2>
+            </div>
 
-            <article>
-                <h3>AWS Two-Tier High Availability Website</h3>
-                <p>
-                    Designed and deployed a highly available two-tier web
-                    architecture using AWS networking and compute services.
-                </p>
-            </article>
+            <div class="projects-grid">
 
-            <article>
-                <h3>AWS Secure Static Website Deployment</h3>
-                <p>
-                    Deployed a static website using AWS services with
-                    security and HTTPS configuration.
-                </p>
-            </article>
+                <article class="project-card">
+
+                    <p class="project-type">
+                        AWS · Docker · CI/CD
+                    </p>
+
+                    <h3>Netflix Application Deployment</h3>
+
+                    <p>
+                        Deployed a containerized frontend and backend application
+                        on AWS EC2 using Docker, Amazon ECR, GitHub Actions,
+                        MongoDB Atlas, IAM, and Portainer.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>AWS EC2</span>
+                        <span>Docker</span>
+                        <span>ECR</span>
+                        <span>GitHub Actions</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <p class="project-type">
+                        AWS · Linux · Web Infrastructure
+                    </p>
+
+                    <h3>AWS PrestaShop Deployment</h3>
+
+                    <p>
+                        Deployed and configured a PrestaShop application on
+                        AWS using Linux servers, Apache, PHP, MariaDB,
+                        cloud networking, and security controls.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>EC2</span>
+                        <span>Linux</span>
+                        <span>Apache</span>
+                        <span>PHP</span>
+                        <span>MariaDB</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <p class="project-type">
+                        AWS · Networking · High Availability
+                    </p>
+
+                    <h3>AWS Two-Tier High Availability Website</h3>
+
+                    <p>
+                        Designed and deployed a highly available two-tier
+                        web architecture using AWS networking and compute
+                        services, with a focus on reliability and secure
+                        infrastructure configuration.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>VPC</span>
+                        <span>EC2</span>
+                        <span>Load Balancer</span>
+                        <span>Auto Scaling</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <p class="project-type">
+                        AWS · Security · HTTPS
+                    </p>
+
+                    <h3>AWS Secure Static Website Deployment</h3>
+
+                    <p>
+                        Deployed a static website using AWS services with
+                        access control, security configuration, DNS,
+                        and HTTPS implementation.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>AWS</span>
+                        <span>Security</span>
+                        <span>DNS</span>
+                        <span>HTTPS</span>
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
 
+        <!-- Experience and Training Section -->
         <section id="experience">
-            <h2>Experience & Training</h2>
 
-            <h3>Cloud Computing & DevOps Training</h3>
-            <p>
-                Digital Witch Support Community | 2026 – Present
-            </p>
+            <div class="section-heading">
+                <p class="section-label">EXPERIENCE & TRAINING</p>
+                <h2>Continuous practical learning.</h2>
+            </div>
 
-            <p>
-                Practical training covering AWS, Linux administration,
-                networking, cloud security, Docker, CI/CD, monitoring,
-                troubleshooting, and cloud infrastructure.
-            </p>
+            <div class="experience-item">
+
+                <p class="experience-date">
+                    2026 – Present
+                </p>
+
+                <h3>Cloud Computing & DevOps Training</h3>
+
+                <p class="experience-provider">
+                    Digital Witch Support Community
+                </p>
+
+                <p>
+                    Practical training covering AWS, Linux administration,
+                    networking, cloud security, Docker, CI/CD, monitoring,
+                    troubleshooting, and cloud infrastructure.
+                </p>
+
+            </div>
+
+
+            <div class="experience-item">
+
+                <p class="experience-date">
+                    2026
+                </p>
+
+                <h3>AWS Cloud Bootcamp</h3>
+
+                <p class="experience-provider">
+                    Five-Day AWS Cloud Training
+                </p>
+
+                <p>
+                    Completed an intensive five-day AWS Cloud Bootcamp
+                    covering core AWS cloud concepts and practical
+                    cloud computing fundamentals.
+                </p>
+
+                <p class="certificate">
+                    AWS Cloud Bootcamp Certificate
+                </p>
+
+            </div>
+
         </section>
 
 
+        <!-- Contact Section -->
         <section id="contact">
-            <h2>Let's Connect</h2>
 
-            <p>
+            <div class="section-heading">
+                <p class="section-label">CONTACT</p>
+                <h2>Let's connect.</h2>
+            </div>
+
+            <p class="contact-intro">
                 I am open to opportunities in Cloud Engineering,
                 DevOps, Cloud Support, and Infrastructure Engineering.
             </p>
 
-            <p>
-                <a href="mailto:ezikeverachinaza@gmail.com">Email Me</a>
-            </p>
+            <div class="contact-links">
 
-            <p>
-                <a href="https://www.linkedin.com/in/vera-ezike/" target="_blank">
+                <a href="mailto:ezikeverachinaza@gmail.com">
+                    Email
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/vera-ezike/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     LinkedIn
                 </a>
-            </p>
 
-            <p>
-                <a href="https://github.com/VeraEzike" target="_blank">
+                <a
+                    href="https://github.com/VeraEzike"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     GitHub
                 </a>
-            </p>
+
+            </div>
+
         </section>
 
     </main>
 
+
     <footer>
-        <p>© 2026 Vera Chinaza Ezike. All rights reserved.</p>
+        <p>
+            © 2026 Vera Chinaza Ezike. All rights reserved.
+        </p>
     </footer>
 
 </body>
